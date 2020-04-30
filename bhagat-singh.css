@@ -1,0 +1,54 @@
+h1 {
+  font-size: 4rem;
+  line-height: 1;
+  text-align:center;
+}
+@media{max-width:600px}{
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.2;
+}
+}
+#main {
+margin: 30px 8px;
+padding: 10px;
+border-radius: 5px;
+background: rgba(17, 17, 255, 0.377);
+}
+img {
+max-width: 100%;
+display: block;
+height: auto;
+margin: 0 auto;
+text-align:center;
+background: #eee;
+}
+
+#img-div {
+background: white;
+padding: 10px;
+margin: 0;
+}
+#img-caption {
+margin: 15px 0 5px 0;
+}
+
+@media (max-width: 460px) {
+#img-caption {
+  font-size: 1.4rem;
+}
+}
+ul {
+max-width: 550px;
+margin: 0 auto 50px auto;
+text-align: left;
+line-height: 1.6;
+}
+
+li {
+margin: 16px 0;
+}
+h4
+{text-align:center;}
+h2{text-align:center;}
+h3{text-align:center;}
